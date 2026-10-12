@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "28f2c3426343558e",
+        "id": "8fee2a21415baf8e",
         "type": "tabs",
         "children": [
           {
-            "id": "23becf382647630c",
+            "id": "152a7db56765c6d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Emil/Te4/Vidareutbildning i form av ett fjärde tekniskt år - Infodokument.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Vidareutbildning i form av ett fjärde tekniskt år - Infodokument"
             }
           }
         ]
@@ -193,8 +197,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -218,34 +222,34 @@
       "obsidian-importer:Import notes": false
     }
   },
-  "active": "23becf382647630c",
+  "active": "42af4f1ef891900d",
   "lastOpenFiles": [
+    "Emil/Te4/Linux commands and run files usfull to have writen down.md",
+    "Emil/Te4/Vidareutbildning i form av ett fjärde tekniskt år - Infodokument.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Början.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Uptime kuma.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Glance.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Npm.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Början.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
     "overview of vault.base",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pi-Hole.md",
-    "Emil/projekts Te4/Egna projekt/Egna projekt ideer.md",
+    "Emil/Egna projekt ideer.md",
     "Emil/Weekly To Do List.md",
     "Untitled.md",
     "2026-10-12.md",
     "Untitled.canvas",
-    "Emil/Te4/Vidareutbildning i form av ett fjärde tekniskt år - Infodokument.md",
     "Emil/To Do List.md",
     "Recording 20261006144307.m4a",
     "Recording 20261006144252.m4a",
     "[PVE helper scripts sites.md",
     "ntoe to micke.md",
-    "Emil/projekts Te4/game of life/Game of life.md",
-    "Emil/projekts Te4/game of life/Foundamentals in javascript.md",
+    "Emil/game of life/Game of life.md",
+    "Emil/game of life/Foundamentals in javascript.md",
     "Pasted image 20260916143256.png",
     "Pasted image 20260916143321.png",
     "Pasted image 20260916143350.png",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)",
-    "Emil/Te4/Linux commands and run files usfull to have writen down.md",
     "Emil/Te4/Gemensama Projekt/Gemensamma Projekt.md",
     "2026-09-16.md",
     "Untitled 1.base",
