@@ -229,5 +229,7 @@ Sedan när den är klar installerad gå igenom wizarden i consolen.
 Jag kom tilll lite problem då min vm sjkut up sig till max ram vilket är konstigt.
 
 ## [[OpenGym]]
+> https://opengym.ch/#download
+> https://opengym.cronahem.duckdns.org/#/home
 
 Detta är en simpel och komplett gym tracking och weight tracking app som du kan hosta själv
