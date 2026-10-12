@@ -1,5 +1,7 @@
 {
   "cssTheme": "Typomagical",
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": true,
+  "showViewHeader": true
 }

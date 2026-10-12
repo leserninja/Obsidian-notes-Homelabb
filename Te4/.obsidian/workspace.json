@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
+                "file": "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Links"
+              "title": "Pve Docker homelabb all documentaion in one"
             }
           }
         ]
@@ -197,8 +197,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -222,19 +222,21 @@
       "obsidian-importer:Import notes": false
     }
   },
-  "active": "42af4f1ef891900d",
+  "active": "152a7db56765c6d5",
   "lastOpenFiles": [
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Glance.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/OpenGym.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/NAS.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pi-Hole.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Npm.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Glance.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Början.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Uptime kuma.md",
     "Emil/Te4/Gemensama Projekt/Gemensamma Projekt.md",
     "Emil/Te4/Linux commands and run files usfull to have writen down.md",
     "Emil/Te4/Vidareutbildning i form av ett fjärde tekniskt år - Infodokument.md",
     "Emil/Egna projekt ideer.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Början.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Npm.md",
     "overview of vault.base",
     "Emil/Weekly To Do List.md",
     "Untitled.md",
@@ -257,7 +259,6 @@
     "Technical/Snippet/EFCore InMemory Db Config with Test.md",
     "Technical/Home/DASH.md",
     "2025-02-16.md",
-    "Technical/Technical/Azure Cache for Redis (Pluralsight).md",
     "Blog",
     "Vlog",
     "Business/Journal/Technical/Migrated/assets/why-not-jwt.png",

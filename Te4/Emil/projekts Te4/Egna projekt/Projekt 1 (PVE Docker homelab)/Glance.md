@@ -33,3 +33,5 @@ If you encounter any problems, you can check logs by running
 ```
 docker compose logs
 ```
+
+==🔴(Är bytt till en lxc continaer  i stället för mer simplicitet)==

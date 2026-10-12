@@ -53,3 +53,4 @@ Nu när vi är här inne så kan man göra lite allt möjligt, då jag valde att
 configurationen när man vill lägga till något är fairly simpel referens till bild nedan:
 
 ![[Pasted image 20260916143256.png|209]]![[Pasted image 20260916143350.png|212]]
+==🔴(Är bytt till en lxc continaer  i stället för mer simplicitet)==

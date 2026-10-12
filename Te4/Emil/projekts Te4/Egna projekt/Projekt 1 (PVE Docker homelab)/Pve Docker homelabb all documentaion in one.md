@@ -30,7 +30,7 @@
 - [ ]  file sharing (mabye)
 - [ ] Rclone MEGA files (might connect to google drive)
 - [ ] omv? or truenas ?
-![[Recording 20261006144252.m4a]]
+
 
 #### networking stuff
 - [x] nginx reverse proxy server 🔼 ✅ 2026-10-12
@@ -40,12 +40,12 @@
 #### media
 - [ ] Simpel MediaManagement server
 - [ ]   Downloaders for media server
-- [ ] (PhotoManagement for grandma)
+- [ ] (PhotoManagement for grandma) / needs a nas first
 #### fun general stuff
-- [ ]   to have control or begin able to see status over all nodes at home
-- [ ]   automerade Ai agenter för att få in live info till ett och samma ställe 
+- [ ]   to have control or begin able to see status over all nodes/enheter at home
+- [ ]   automerade Ai agenter för att få in live info till ett och samma ställe ?
 - [ ]   Home assistant (annan form utav dashboard)
-- [ ]   Knoledgebase connected to an ai ??? 
+- [ ]   Knoledgebase connected to an ai ??? (wiki)
 - [ ]   (Mail automation??)
 - [ ]   New bitwarden vault [Security] 
 
@@ -98,6 +98,8 @@ If you encounter any problems, you can check logs by running
 ```
 docker compose logs
 ```
+
+==🔴(Är bytt till en lxc continaer  i stället för mer simplicitet)==
 ## [[Uptime kuma]]
 
 Dashboard= http://100.75.94.81:3001/
@@ -156,6 +158,8 @@ configurationen när man vill lägga till något är fairly simpel referens till
 
 ![[Pasted image 20260915141605.png|351]]
 
+
+==🔴(Är bytt till en lxc continaer  i stället för mer simplicitet)==
  
 ## [[Pi-hole]]
 
@@ -215,4 +219,15 @@ Nu har du ett certifikat och är redo att lägga till hoster, då du nu addar pr
 Tryck nu på SSL sidan på samma ruta och välj din SSL/ certifikat och force SSL samt HTTP/2 Support sedan är du klar.
 
 
-##
+## [[NAS]]
+
+Jag installerade Truenas vm via pve helper community scripts:
+https://community-scripts.org/scripts?q=storage&preview=truenas-vm
+
+Sedan när den är klar installerad gå igenom wizarden i consolen.
+
+Jag kom tilll lite problem då min vm sjkut up sig till max ram vilket är konstigt.
+
+## [[OpenGym]]
+
+Detta är en simpel och komplett gym tracking och weight tracking app som du kan hosta själv
