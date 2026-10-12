@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "77e85f3f970997b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "28f2c3426343558e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23becf382647630c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8c5f79e0527b1b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d46aecce6a1078b0",
+        "type": "tabs",
+        "dimension": 79.75708502024291,
+        "children": [
+          {
+            "id": "42af4f1ef891900d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8042cedd39507497",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d481b69de8ac5693",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "da30c361fafba83e",
+        "type": "tabs",
+        "dimension": 20.242914979757085,
+        "children": [
+          {
+            "id": "e75866da9ca663f8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "279416c7625b4660",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fd9a64f0deb3159",
+        "type": "tabs",
+        "dimension": 67.85714285714286,
+        "children": [
+          {
+            "id": "53f920f8060070a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "iPad MINI and FF Dec 2025.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for iPad MINI and FF Dec 2025"
+            }
+          },
+          {
+            "id": "5720a8812050f3b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "df102072c4a377ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4c18205f15a43f5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "c6412785a0953c64",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "2a5073634fabf08a",
+        "type": "tabs",
+        "dimension": 32.142857142857146,
+        "children": [
+          {
+            "id": "0c7f632e897519ae",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "bases:Create new base": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-importer:Import notes": false
+    }
+  },
+  "active": "23becf382647630c",
+  "lastOpenFiles": [
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Uptime kuma.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Glance.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Npm.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Början.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
+    "overview of vault.base",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pi-Hole.md",
+    "Emil/projekts Te4/Egna projekt/Egna projekt ideer.md",
+    "Emil/Weekly To Do List.md",
+    "Untitled.md",
+    "2026-10-12.md",
+    "Untitled.canvas",
+    "Emil/Te4/Vidareutbildning i form av ett fjärde tekniskt år - Infodokument.md",
+    "Emil/To Do List.md",
+    "Recording 20261006144307.m4a",
+    "Recording 20261006144252.m4a",
+    "[PVE helper scripts sites.md",
+    "ntoe to micke.md",
+    "Emil/projekts Te4/game of life/Game of life.md",
+    "Emil/projekts Te4/game of life/Foundamentals in javascript.md",
+    "Pasted image 20260916143256.png",
+    "Pasted image 20260916143321.png",
+    "Pasted image 20260916143350.png",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)",
+    "Emil/Te4/Linux commands and run files usfull to have writen down.md",
+    "Emil/Te4/Gemensama Projekt/Gemensamma Projekt.md",
+    "2026-09-16.md",
+    "Untitled 1.base",
+    "Journal/2025-02-17.md",
+    "Technical/Snippet/EFCore InMemory Db Config with Test.md",
+    "Technical/Home/DASH.md",
+    "2025-02-16.md",
+    "Technical/Technical/Azure Cache for Redis (Pluralsight).md",
+    "Blog",
+    "Vlog",
+    "Business/Journal/Technical/Migrated/assets/why-not-jwt.png",
+    "Business/Journal/Technical/Migrated/assets/original.jpg",
+    "Business/Journal/Technical/Migrated/assets/oYukX.jpg",
+    "Business/Journal/Technical/Migrated/assets/iqueryable-dbcontext-everywhere.jpg",
+    "Business/Journal/Technical/Migrated/assets/image4.png",
+    "Business/Journal/Technical/Migrated/assets/image3.png",
+    "Business/Journal/Technical/Migrated/assets/image2.png",
+    "Business/Journal/Technical/Migrated/assets/Brand.psd",
+    "Business/Journal/Technical/Migrated/assets/Brand-techpress.psd",
+    "Business/Journal/Technical/Migrated/assets/Brand-C.psd",
+    "Business/Journal/Technical/Migrated/Mind Map.canvas",
+    "Journal/Technical/Migrated/Mind Map.canvas",
+    "Technical/Migrated/Mind Map.canvas"
+  ]
+}
