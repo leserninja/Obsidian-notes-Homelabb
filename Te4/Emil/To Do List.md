@@ -4,7 +4,7 @@
 - [ ]  databas i en container och få kontakt med den utan för containern
 - [ ] Game of life continuens
 - [ ] mariadb server test
-- [x] komma på något för eget projekt
+- [x] komma på något för eget projekt ✅ 2026-10-12
 #### te4 website/server 
 - [ ] spint 3
 #### Eget projekt

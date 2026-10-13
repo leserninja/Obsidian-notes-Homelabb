@@ -229,7 +229,29 @@ Sedan när den är klar installerad gå igenom wizarden i consolen.
 Jag kom tilll lite problem då min vm sjkut up sig till max ram vilket är konstigt.
 
 ## [[OpenGym]]
+### Links
 > https://opengym.ch/#download
 > https://opengym.cronahem.duckdns.org/#/home
 
-Detta är en simpel och komplett gym tracking och weight tracking app som du kan hosta själv
+### Setup
+Detta är en simpel och komplett gym tracking och weight tracking app som du kan hosta själv elller bara ha localt på din mobil men fördelen med att ha det hostad själv är att du får möjlighet till att ha många users och syncad data.
+
+## [[vautlwarden]]
+
+### Installation
+Jag installerade denna också med ett script som är :
+```
+https://community-scripts.org/scripts/vaultwarden
+```
+```
+var_os='alpine' bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/vaultwarden.sh)"
+```
+
+Denna setup är väldigt simpel, du skapar bara ett konto så är du klar.
+
+### Export
+Vill du ha dina passwords från någon annan form av passwordmanager som exempel chrome så kan du importera dem, och om du redan har en bitwarden vault så går du enkelt in i det valvet som kanske är ifrån .eu servern.
+
+Då du går in i settings och sedan vault option och export.
+
+##
