@@ -285,4 +285,13 @@ där du skriver in på "Incomming port" 25565 och samma för forward port och si
 #### Config (Module)
 
 För att få Modulen blueMap att funka så lägger du helt enkelt bara in en proxy host med ett domain namn samt din base domain jag rekomenderar det som du gjorde i föregående steg, sedan skriver du in i "forward hostname/ ip" samma ip som du gjorde i förra steget och sedan port 8100 för bluemap ligger på den porten och därefter bokka i "Block common exploits" och "websockets support" samt gå till SSL och  lägg till SSLn och bokka för "Force SSL" och "HTTP/2 Support"
-##
+## [[CronMaster]]
+Detta är en Server manager som hanterar scheduled tasks och scripts för att automera saker och ting, jag använder den enbart för att ha automerade reboots varje söndag klockan 00:00
+
+Installeras på din server node och inte som en separat container eller vm, så på din node runnar du denna command. 
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/addon/cronmaster.sh)"
+```
+
+OBS! Går inte att ha en proxy på denna, vet ännu inte varför men jag har prövat lite olika saker.

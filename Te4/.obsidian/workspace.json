@@ -197,8 +197,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -224,8 +224,9 @@
   },
   "active": "05a61673f8c9c13d",
   "lastOpenFiles": [
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/DiscoPanel (Minecraft).md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/CronMaster.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/DiscoPanel (Minecraft).md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/vautlwarden.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Början.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Glance.md",
@@ -262,7 +263,6 @@
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)",
     "2026-09-16.md",
     "Untitled 1.base",
-    "Journal/2025-02-17.md",
     "Blog",
     "Vlog",
     "Business/Journal/Technical/Migrated/assets/why-not-jwt.png",
