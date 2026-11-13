@@ -9,7 +9,9 @@
   "accessibility": {
     "highTextContrast": false
   },
-  "knownTags": {},
+  "knownTags": {
+    "nas": 1
+  },
   "tagColors": {},
   "_version": 4
 }

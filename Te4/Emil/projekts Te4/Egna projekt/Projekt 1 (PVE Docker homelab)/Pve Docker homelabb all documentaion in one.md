@@ -27,9 +27,9 @@
 #### first steps
 - [x] InfraManagement? (Proxmox, Cosmos) ✅ 2026-10-12
 - [x] Glance dashboard (--inprog) -- (Up and running only needs configuring) http://100.75.94.81:8080/home ✅ 2026-10-12
-- [ ]  file sharing (mabye)
+- [x] file sharing (mabye) ✅ 2026-11-13
 - [ ] Rclone MEGA files (might connect to google drive)
-- [ ] omv? or truenas ?
+- [x] omv? or truenas ? zimaos? ✅ 2026-11-13
 
 
 #### networking stuff
@@ -47,7 +47,7 @@
 - [ ]   Home assistant (annan form utav dashboard)
 - [ ]   Knoledgebase connected to an ai ??? (wiki)
 - [ ]   (Mail automation??)
-- [ ]   New bitwarden vault [Security] 
+- [x] New bitwarden vault [Security] ✅ 2026-10-22
 
 ----
 # Hur/ vad jag gör 
@@ -162,7 +162,7 @@ configurationen när man vill lägga till något är fairly simpel referens till
 ![[2026-10-13_15-33.png|302]]
 
 
-==🔴(Är bytt till en lxc continaer  i stället för mer simplicitet)==
+==🔴(Är bytt till en lxc continaer  i stället, för mer simplicitet)==
  
 ## [[Pi-hole]]
 
@@ -220,17 +220,6 @@ Efter du har en dns så går du till certificates och lägger till en via dns, s
 Nu har du ett certifikat och är redo att lägga till hoster, då du nu addar proxy host och fyller i domain name som ([pve].exemepl.duckdns.org) sedan vad för scheme den använder alltså http eller https, där efter lägger du in ip addresen och porten din servies går på, det är bra att boka för block commaon exploits och webbsockets support. 
 
 Tryck nu på SSL sidan på samma ruta och välj din SSL/ certifikat och force SSL samt HTTP/2 Support sedan är du klar.
-
-
-## [[NAS]]
-
-Jag installerade Truenas vm via pve helper community scripts:
-https://community-scripts.org/scripts?q=storage&preview=truenas-vm
-
-Sedan när den är klar installerad gå igenom wizarden i consolen.
-
-Jag kom tilll lite problem då min vm sjkut up sig till max ram vilket är konstigt.
-
 ## [[OpenGym]]
 ### Links
 > https://opengym.ch/#download
@@ -294,4 +283,52 @@ Installeras på din server node och inte som en separat container eller vm, så 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/addon/cronmaster.sh)"
 ```
 
+Kod för reboot på noden
+```
+/opt/cronmaster/data/cron-log-wrapper.sh "9dnp-qare" sh -c '/usr/bin/pvesh create /nodes/$(hostname)/status -command reboot'
+```
+
 OBS! Går inte att ha en proxy på denna, vet ännu inte varför men jag har prövat lite olika saker.
+
+
+
+
+## [[ZimaOs]]
+
+Installerad via community scripts [[Links]] eller via deras vm.
+
+Används som NAS genom smb protokollet som är inbyggt och då du enbart går in i files och trycker på de tre punkter och sedan trycker på share via samba.
+
+## [[HomerDashboard]]
+
+Homer är en simple web dashboard för att centeralisera antigen health checks eller bara länka alla dina olika web services eller vad du har.
+
+konfigurera dashboarden, gå via "/opt/homer/assets/config.yml"  i lxc, i docker "/www/assets/"
+
+Enkelt installerat via lxc på communicty scripts eller via docker compose som ser ut så här nedan: 
+#### Docker compose:
+```
+services:
+  homer:
+    image: b4bz/homer
+    container_name: homer
+    volumes:
+      - /path/to/config/dir:/www/assets # Make sure your local config directory exists
+    ports:
+      - 8080:8080
+    user: 1000:1000 # default
+    environment:
+      - INIT_ASSETS=1 # default, requires the config directory to be writable for the container user (see user option)
+    restart: unless-stopped
+```
+
+#### Dockerfile:
+
+```
+docker run -d \
+  --name homer \
+  -p 8080:8080 \
+  --mount type=bind,source="/path/to/config/dir",target=/www/assets \
+  --restart=unless-stopped \
+  b4bz/homer:latest
+```

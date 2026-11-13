@@ -4,5 +4,4 @@
 > https://community-scripts.org/
 > https://tteck.github.io/Proxmox/
 
-> (important) https://community-scripts.org/scripts?q=tailscale&preview=add-tailscale-lxc
-> 
+> (important for tailscale use cases) https://community-scripts.org/scripts?q=tailscale&preview=add-tailscale-lxc
