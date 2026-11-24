@@ -10,7 +10,10 @@
     "highTextContrast": false
   },
   "knownTags": {
-    "nas": 1
+    "copilot-conversation": 2,
+    "nas": 1,
+    "nested": 3,
+    "nested/tag": 1
   },
   "tagColors": {},
   "_version": 4

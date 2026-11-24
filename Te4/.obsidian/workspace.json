@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iPad MINI and FF Dec 2025.md",
+                "file": "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for iPad MINI and FF Dec 2025"
+              "title": "Backlinks"
             }
           },
           {
@@ -137,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -164,7 +165,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
               "title": "Outline"
             }
@@ -182,9 +188,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "691f198f056350df",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Chat"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "2a5073634fabf08a",
@@ -197,16 +213,15 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,13 +234,35 @@
       "audio-recorder:Start/stop recording": false,
       "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-importer:Import notes": false
+      "obsidian-importer:Import notes": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "05a61673f8c9c13d",
+  "active": "4c18205f15a43f5d",
   "lastOpenFiles": [
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
+    "copilot/copilot-conversations/agent__hello@20261124_135901.md",
+    "copilot/copilot-conversations",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/json-canvas/references",
+    "copilot/skills/json-canvas",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/LICENSE",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-bases",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/LICENSE",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/obsidian-markdown/references",
+    "copilot/skills/obsidian-markdown",
+    "Emil/Te4/github shi.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pve Docker homelabb all documentaion in one.md",
+    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Links.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Pi-Hole.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/OpenGym.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Uptime kuma.md",
@@ -239,38 +276,17 @@
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Början.md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/DiscoPanel (Minecraft).md",
     "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Glance.md",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)/Npm.md",
-    "Emil/To Do List.md",
-    "Emil/Weekly To Do List.md",
-    "Emil/projekts Te4/Egna projekt/Tutorials/Tutorial to connect to  tailnet invites.md",
-    "Emil/projekts Te4/Egna projekt/Tutorials",
-    "overview of vault.base",
     "Emil/Photos/2026-10-13_15-35.png",
     "Emil/Photos/2026-10-13_15-33.png",
-    "Emil/Photos",
-    "Pasted image 20260916143350.png.md",
-    "Emil/Te4/Linux commands and run files usfull to have writen down.md",
-    "Emil/Te4/Gemensama Projekt/Gemensamma Projekt.md",
-    "Emil/Te4/Vidareutbildning i form av ett fjärde tekniskt år - Infodokument.md",
-    "2026-10-12.md",
     "Untitled.canvas",
-    "Recording 20261006144307.m4a",
-    "Recording 20261006144252.m4a",
-    "[PVE helper scripts sites.md",
-    "ntoe to micke.md",
     "Pasted image 20260916143256.png",
     "Pasted image 20260916143321.png",
     "Pasted image 20260916143350.png",
-    "Emil/projekts Te4/Egna projekt/Projekt 1 (PVE Docker homelab)",
-    "Untitled 1.base",
-    "Blog",
-    "Vlog",
     "Business/Journal/Technical/Migrated/assets/why-not-jwt.png",
     "Business/Journal/Technical/Migrated/assets/original.jpg",
     "Business/Journal/Technical/Migrated/assets/oYukX.jpg",
     "Business/Journal/Technical/Migrated/assets/iqueryable-dbcontext-everywhere.jpg",
     "Business/Journal/Technical/Migrated/assets/image4.png",
-    "Business/Journal/Technical/Migrated/assets/Brand.psd",
     "Business/Journal/Technical/Migrated/Mind Map.canvas",
     "Journal/Technical/Migrated/Mind Map.canvas",
     "Technical/Migrated/Mind Map.canvas"
